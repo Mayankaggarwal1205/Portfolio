@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Lato:wght@900&family=Roboto+Slab:wght@400;500&family=Yellowtail&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:wght@500&family=Lato:wght@900&family=Roboto+Slab:wght@400;500&family=Yellowtail&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:wght@500&family=Lato:wght@900&family=Roboto+Slab:wght@400;500&family=Yellowtail&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kurenaido&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fira+Sans:wght@500&family=Lato:wght@900&family=Roboto+Slab:wght@400;500&family=Yellowtail&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kurenaido&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+@keyframes progressBar {
+    0%{
+        width: 0vw;
+    }
+    60%{
+        width: 60vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/img6.jpeg);
+    background-size: 120% 150%;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+header{
+    /* background-color: black; */
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    padding-top: 7vh;
+    font-size: 28px;
+    list-style: none;
+    padding-left: 12vw;
+    width: 58vw;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.a{
+    background-color: red;
+    height: 0.3vh;
+    animation: progressBar 1s ease-in-out  1 normal;
+}
+.b{
+    display: flex;
+}
+.b .ba{
+    padding-left: 5vw;
+    padding-top: 3vh;
+}
+.b .bb{
+    margin-left: 8vw;
+}
+main{
+    height: 71vh;
+    width: 100vw;
+}
+.c{
+    display: flex;
+    height: 71vh;
+    width: 100vw;
+}
+.c .ca{
+    margin-left: 5vw;
+    margin-top: 4vh;
+    font-size: 22px;
+    /* color: darkslategray; */
+    height: 65vh;
+}
+.c .ca .caa{
+    text-transform: capitalize;
+    font-size: 38px;
+    font-family: 'Bree Serif', serif;
+    width: 53vw;
+    color: white;
+}
+.c .ca .cab{
+    margin-top: 2vh;
+    font-size: 23px;
+    color: darkslategray;
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+    font-family: 'Zen Maru Gothic', sans-serif;
+    height: 18vh;
+}
+.c .ca .cac{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+.c .cb{
+    width: 39.4vw;
+    height: 40vh;
+    display: grid;
+    /* grid-gap: 2vh; */
+    grid-template-columns: 16vw 18vw;
+    grid-template-rows: 13vh 13vh;
+    /* padding-left: 68px; */
+    /* padding-top: 175px; */
+    padding-top: 29vh;
+    color: darkslategray;
+}
+.c .cba{
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 30px;
+    padding-top: 8vh;
+}
+/* .c{
+    text-align: center;
+    color: wheat;
+    font-size: 48px;
+    font-family: 'Yellowtail', cursive;
+} */
+footer{
+    text-align: center;
+    /* background-color: #e1eedd; */
+    color: black;
+    text-align: center;
+    height: 9vh;
+}
+footer p{
+    font-size: 23px;
+    padding-top: 3vh;
+    color: dimgrey;
+}

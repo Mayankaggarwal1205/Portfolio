@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/img6.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    height: 100vh;
+    width: 100vw;
+}
+.a{
+    display: flex;
+    height: 100vh;
+}
+.aa{
+    text-align: center;
+    margin-left: 10vw;
+}
+.aa .aab{
+    color: darkslategray;
+    margin-top: 2vh;
+    font-size: 23px;
+}
+.ab .aba{
+    /* border: 2px solid red; */
+    margin-top: 22vh;
+    margin-left: 9vw;
+    background-color: white;
+    height: 54vh;
+    width: 30vw;
+    border-radius: 9px;
+}
+.ab .aba .abac{
+    text-align: center;
+}
+.ab .aba .abac .abaca{
+    height: 6vh; width: 25vw; background-color: #1877f2; color: white; font-size: 21px; border-radius: 7px; margin-top: 2vh; border-width: 1px;
+}
+.ab .aba .abad{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    font-size: 23px;
+}
+.ab .aba .abad a{
+    text-decoration: none;
+}
+.ab .aba .abae{
+    margin-top: 1vh;
+    text-align: center;
+}
+.ab .aba .abae .abaea{
+    height: 6vh; width: 16vw; background-color: #42b72a; color: white; font-size: 21px; border-radius: 7px; margin-top: 2vh; border-width: 1px;
+}

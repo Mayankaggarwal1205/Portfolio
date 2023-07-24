@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="CreateNewAccountStyle.css">
+</head>
+
+<body>
+    <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+        <strong>Success!</strong> Your form request has been successfully submitted
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"></span>
+        </button>
+    </div>
+    <div id="failure" class="alert alert-danger alert-dismissible fade" role="alert">
+        <strong>Error!</strong> Your form request has not been sent due to errors
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+
+    <div class="a">
+        <div class="aa">
+            <div class="aaa">
+                <img src="images/img9.jpeg" alt="" style="margin-top: 26vh; border-radius: 150px;">
+            </div>
+            <div class="aab">
+                <h2>Experience the Creativity Better</h2>
+            </div>
+        </div>
+        <div class="ab">
+            <div class="aba">
+                <div class="abaa">
+                    <!-- <label for="First Name">First Name</label> -->
+                    <input type="text" class="form-control" required name="" id="FirstName" placeholder="First Name"
+                        style="height: 5vh; width: 12.5vw; text-align: center; margin-top: 4vh; border-radius: 7px; border-width: 1px; font-size: 19px;">
+                    <br>
+                    <small id="validFirstName" class="form-text text-muted invalid-feedback"></small>
+                    <small id="validFirstName" class="form-text text-muted valid-feedback"></small>
+                    <!-- <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                        Please choose a username.
+                      </div> -->
+                </div>
+                <div class="abab">
+                    <!-- <label for="Last Name">Last Name</label> -->
+                    <input type="text" class="form-control" name="" id="LastName" placeholder="Last Name" style="height: 5vh; width: 12.5vw; text-align: center; margin-top: 4vh;
+                    border-radius: 7px; border-width: 1px; font-size: 19px;">
+                    <br>
+                    <small id="validLastName" class="form-text text-muted invalid-feedback"> </small>
+                    <small id="validLastName" class="form-text text-muted valid-feedback"></small>
+                </div>
+            </div>
+            <div class="abb">
+                <!-- <label for="Username">Username</label> -->
+                <input type="text" class="form-control" name="" id="Username"
+                    placeholder="Enter your Username or phone number"
+                    style="height: 5vh; width: 27.4vw; text-align: center; margin-left: 1.2vw; border-radius: 7px; border-width: 1px; font-size: 17px;">
+                <small id="validUsername" class="form-text text-muted invalid-feedback">
+                    Your Username must be 2-20 characters long.
+                </small>
+                <small id="validUsername" class="form-text text-muted valid-feedback"></small>
+            </div>
+            <div class="abc">
+                <!-- <label for="Password">Password</label> -->
+                <input type="text" class="form-control" name="" id="Password" placeholder="Create New Password"
+                    style="height: 5vh; width: 27.3vw; text-align: center; margin-top: 3vh; margin-left: 1.3vw; border-radius: 7px; border-width: 1px; font-size: 17px;">
+                <small id="validPassword" class="form-text text-muted invalid-feedback">
+                    Your Password must be 2-20 characters long.
+                </small>
+                <small id="validPassword" class="form-text text-muted valid-feedback"></small>
+            </div>
+            <div class="abc">
+                <!-- <label for="Retype your Password">Retype your Password</label> -->
+                <input type="text" class="form-control" name="" id="Retype your Password"
+                    placeholder="Retype your Password"
+                    style="height: 5vh; width: 27.3vw; text-align: center; margin-top: 3vh; margin-bottom: 3vh; margin-left: 1.3vw; border-radius: 7px; border-width: 1px; font-size: 17px;">
+                <small id="validRetypePassword" class="form-text text-muted invalid-feedback">
+                    Your Password does not match which you have entered
+                </small>
+                <small id="validRetypePassword" class="form-text text-muted valid-feedback"></small>
+            </div>
+            <div class="abd">
+                <label for="Date of Birth" style="font-size: 23px; margin-left: 0.7vw; margin-right: .8vw;">Date of Birth</label>
+                <input type="date" name="" id="Date" value="" min="1950-01-01" max="2021-12-31" required
+                    style="width: 11vw; height: 4vh; font-size: 13px; color: darkslategray;">
+            </div>
+            <div class="abe">
+                <div class="abea">
+                    <label for="Gender" style="font-size: 23px;">Gender </label>
+                </div>
+                <div class="abeb">
+                    <input type="radio" name="Gender" id="gender" required style="height: 16px; margin-right: 0.3vw;"> <label
+                        for="" style="margin-bottom: 0rem;">Male</label>
+                    <br>
+                    <input type="radio" name="Gender" id="gender" style="height: 16px; margin-right: 0.3vw;"> <label
+                        for="" style="margin-bottom: 0rem" ;>Female</label>
+                    <br>
+                    <input type="radio" name="Gender" id="gender" style="height: 16px; margin-right: 0.3vw;"> <label
+                        for="" style="margin-bottom: 0rem;">Others</label>
+                </div>
+            </div>
+            <div class="abg">
+                <div class="abga">
+                    <input type="checkbox" class="form-control" name="" id="checkbox" required>
+                    <small id="validCheckbox" class="form-text text-muted invalid-feedback"></small>
+                </div>
+                <!-- <form class="was-validated">
+                    <div class="abga form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="checkbox" required>
+                        <label class="form-check-label" for="validationFormCheck1"></label>
+                        <div class="invalid-feedback" id="validCheckbox">Please tick the checkbox</div>
+                    </div>
+                </form> -->
+
+                <div class="abgb">
+                    <p>By signing up, you agree to our Terms , <a href="#">Data Policy</a> and <a href="#">Cookies
+                            Policy</a> .</p>
+                </div>
+            </div>
+            <div class="abf">
+                <button class="abfa" id="submit" type="submit" onclick="window.location.href = '#'">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="CreateNewAccount.js"></script>
+
+</html>
